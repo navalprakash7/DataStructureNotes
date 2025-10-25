@@ -1,19 +1,25 @@
-## Getting Started
+## DataStructure Implementation
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Linked Lists
+- SinglyLinkedList
+- DoublyLinkedList
+- CircularSinglyLinkedList
+- CircularDoublyLinkedList
 
-## Folder Structure
+### Stacks
+- StaticStack → Array-based
+- DynamicStack → Linked list–based
 
-The workspace contains two folders by default, where:
+### Queues
+- LinearQueue → FIFO queue
+- CircularQueue → Efficient wrap-around queue
+- DoubleEndedQueue → Insert/delete from both ends
+- PriorityQueue → Serve elements by priority
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Hashing
+- HashMap → Key-value mapping (chaining)
+- HashSet → Based on custom HashMap
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-# DataStructureNotes
+### Trees
+- BinaryTree → Preorder, Inorder, Postorder, Level-order
+- BinarySearchTree → Insert, Delete, Search, Inorder
